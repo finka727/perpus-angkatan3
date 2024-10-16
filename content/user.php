@@ -8,7 +8,7 @@
             <button type="button" class="btn btn-outline-secondary btn-sm">Recycle</button>
         </div>
  
-        <legend class="float-none w-auto px-3">Table Anggota</legend>
+        <legend class="float-none w-auto px-3">Data User</legend>
         <div align="right">
             <a href="?pg=tambah-user" class="btn btn-primary">Tambah</a>
         </div>

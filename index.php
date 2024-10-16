@@ -1,5 +1,9 @@
 <?php 
 session_start();
+// empty() : kosong
+if (empty($_SESSION['NAMA'])) {
+    header("location:login.php?access=failed");
+}
 include 'koneksi.php';
 ?>
 <!DOCTYPE html>
@@ -35,6 +39,7 @@ include 'koneksi.php';
         Copyright &copy 2024 PPKD - Jakarta Pusat
     </footer>
     <script src="bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
 </div>
 </body>
 

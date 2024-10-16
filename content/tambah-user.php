@@ -43,8 +43,6 @@ if (isset($_GET['delete'])) {
 <div class="container mt-4 mb-3">
     <fieldset class="border rounded-1 p-5 border border border-4 border border-dark">
         <div class="d-flex justify-content-start mb-3">
-            <button type="button" class="btn btn-outline-secondary btn-sm">Add</button>
-            <button type="button" class="btn btn-outline-secondary btn-sm">Recycle</button>
         </div>
 
         <legend class="float-none w-auto px-3"><?php echo isset($_GET['edit']) ? 'Edit' : 'Tambah' ?> User</legend>
