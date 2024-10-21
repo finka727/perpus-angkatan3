@@ -12,6 +12,7 @@
           <a class="nav-link text-light" href="?pg=kategori">Category</a>
           <a class="nav-link text-light" href="?pg=buku">Buku</a>
           <a class="nav-link text-light" href="?pg=peminjaman">Peminjaman</a>
+          <a class="nav-link text-light" href="?pg=pengembalian">Pengembalian</a>
           <a class="nav-link text-light" href="?pg=anggota">Anggota</a>
         </div>
         <a href="keluar.php" class="btn btn-danger btn-sm ms-auto"><i class="fa-solid fa-right-from-bracket"></i> Keluar</a>
